@@ -143,7 +143,7 @@ body {
 .container--3 {
     border: 1px solid royalblue;
     width: 90%;
-    height: 550px;
+    height: 575px;
     padding-top: 67px;
     padding-bottom: 33px;
     margin: auto;
@@ -159,7 +159,8 @@ body {
     word-wrap: break-word;
     /* word-break: break-all; */
     overflow: hidden;
-    margin-right: 0.5%;
+    margin-right: 5px;
+    margin-bottom: -15px;
     padding-right: 1%;
     padding-bottom: 33px;
     width: 45%;
@@ -174,11 +175,11 @@ body {
 .container--3--a--text p {
     padding-top: 67px;
     font-style: normal;
-    font-size: 16x;
+    font-size: 16px;
     /* letter-spacing: 1px; */
     line-height: 25px;
-    font-weight: 600;
-    font-family: "Open Sans", Roboto, Arial, Helvetica, Verdana, sans-serif;
+    font-weight: 300;
+    font-family: "Open Sans", 'Roboto', Arial, Helvetica, Verdana, sans-serif;
     width: 60%;
     /* text-align: left; */
     text-align: justify;
@@ -187,7 +188,7 @@ body {
 
 .container--3--b {
     display: inline-block;
-    margin-left: 1%;
+    margin-left: 5px;
     /* padding-top: 100px; */
     width: 45%;
     text-align: left;
@@ -195,21 +196,25 @@ body {
     /* border: 1px solid royalblue; */
 }
 
-.container--3--b--text .p1 {
-    font-size: 36x;
-    /* letter-spacing: 1px; */
-    line-height: 40px;
-    font-weight: 700;
-    font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;    
+.container--3--b--text {
+    margin-bottom: 70px;
 }
 
-.container--3--b--text .p2 {
+.container--3--b--text h2 {
+    font-size: 36px;
+    /* letter-spacing: 1px; */
+    line-height: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;    
+}
+
+.container--3--b--text b {
     color: rgb(231, 26, 34);
-    font-size: 30x;
+    font-size: 30px;
     /* letter-spacing: 1px; */
     line-height: 36px;
     font-weight: 700;
-    font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;    
+    font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;  
 }
 
 .container--3 img {
@@ -218,5 +223,198 @@ body {
 }
 
 .container--3--b--image {
-    margin-top: 100px;
+    /* vertical-align: top; */
+    margin-top: 0px;
+    /* padding-top: 50px; */
+}
+
+.container--4 {
+    width: 100%;
+    height: 600px;
+    background-image: url("images/container-4-background.jpg");
+    background-size: cover;
+    background-position: 50% 0%;
+    color: #111111;
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    overflow: hidden;
+}
+
+/* .container--4 > div {
+    flex: 1 1 calc(40% - 10px);
+    margin-right: 0px;
+} */
+
+.container--4--image {
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid royalblue;
+    /* object-fit: cover; */
+    width: 40%;
+    /* height: 100%; */
+}
+
+.container--4--text {
+    display: inline-block;
+    padding-top: 40px;
+    border: 1px solid royalblue;
+    width: 52%;
+    text-align: left;
+    /* padding-right: 75px; */
+}
+
+.container--4--text .p1 {
+    color: rgb(16, 78, 146);
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
+    width: 80%;
+}
+
+.container--4--dummy--form {
+    margin-top: -50px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.container--4--dummy--form input[type=text] {
+    border: none;
+    border-bottom: 12px solid rgb(231, 26, 34);
+    background-color: rgb(231, 26, 34);
+
+    height: 0px;
+    width: 85%;
+    /* width: 200px; */
+}
+
+.container--4--text .p2 {
+    /* margin-top: 30px; */
+    /* color: #999999; */
+    font-style: normal;
+    font-size: 20px;
+    /* letter-spacing: 2px; */
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Open Sans", Roboto, Arial, Helvetica, Verdana, sans-serif;
+    /* text-align: justify; */
+    width: 80%;
+    /* margin: auto; */
+}
+
+.container--4--form input[type=submit] {
+    background-color: rgb(232, 37, 34);
+    color: white;
+    border-radius: 3px;
+    height: 52px;
+    width: 150px;
+    border: 0px;
+    font-style: normal;
+    font-size: 12x;
+    letter-spacing: 1px;
+    line-height: 19px;
+    font-weight: 600;
+    font-family: "Open Sans", Roboto, Arial, Helvetica, Verdana, sans-serif;
+}
+
+.container--4--form .book--now--button {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.container--5--flex {
+    border: 1px solid royalblue;
+    height: 500px;
+    padding-top: 50px;
+    margin: auto;
+    text-align: left;
+    width: 90%;
+}
+
+.container--5--flex--a p {
+    margin-bottom: 50px; 
+    font-size: 36px;
+    /* letter-spacing: 1px; */
+    line-height: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
+    text-align: left;   
+}
+
+.container--5--b--flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container--5--b--flex > div {
+    flex: 1 1 calc(27% - 20px);
+    margin-right: 50px;
+    /* min-width: 200px; */
+    /* max-width: 30%; */
+    /* min-width: 90%; */
+}
+
+.container--5--b--flex img {
+    background-color: #e71a23;
+    fill: white;
+    border-radius: 30%;
+    padding: 20px;
+    /* background-clip: border-box; */
+}
+
+.container--5--b--flex .p1 {
+    font-size: 24px;
+    /* letter-spacing: 1px; */
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
+}
+
+.container--5--b--flex .p2 {
+    font-size: 18px;
+    /* letter-spacing: 1px; */
+    font-style: italic;
+    line-height: 20px;
+    font-weight: 300;
+    font-family: 'Roboto', "Open Sans", sans-serif;
+}
+
+.container--6 {
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-color: #104E92;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--6 > div {
+    flex: 1 1 calc(45% - 20px);
+    margin-right: 20px;
+    /* min-width: 200px; */
+    /* max-width: 30%; */
+    /* min-width: 90%; */
+}
+
+.container--6 img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.container--6--images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container--6--images > div {
+    flex: 1 1 calc(45% - 20px);
+    margin-right: 20px;
+    /* min-width: 200px; */
+    /* max-width: 30%; */
+    /* min-width: 90%; */
 }
