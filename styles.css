@@ -13,20 +13,20 @@
     
     .container--1 {
         width: 100%;
-        height: 800px;
+        height: 650px;
         /* overflow: hidden; */
         background-image: url("images/hero-bg.jpg");
         background-size: cover;
-        background-position: 50% 0%;
+        background-position: 80% 0%;
         margin-bottom: -30px;
     }
     
     .container--1--a {
-        padding-left: 50px;
-        padding-top: 275px;
+        padding-left: 25px;
+        padding-top: 425px;
         color: white;
         font-style: normal;
-        font-size: 65px;
+        font-size: 36px;
         letter-spacing: 3px;
         line-height: 5px;
         font-weight: normal;
@@ -35,10 +35,10 @@
     
     .container--1--b {
         margin-top: 50px;
-        padding-left: 50px;
+        padding-left: 25px;
         color: white;
         font-style: normal;
-        font-size: 105px;
+        font-size: 58px;
         line-height: 5px;
         font-weight: bold;
         font-family: "Archivo Black", Verdana, Arial, Helvetica, sans-serif;
@@ -46,7 +46,7 @@
     
     .container--1--dummy--form {
         margin-top: -25px;
-        padding-left: 50px;
+        padding-left: 25px;
         text-align: left;
     }
     
@@ -55,11 +55,12 @@
         border-bottom: 7px solid white;
     
         height: 5px;
-        width: 700px;
+        width: 350px;
         /* width: 200px; */
     }
     
     .container--1--c {
+        display: none;
         margin-top: 50px;
         padding-left: 50px;    
     }
@@ -70,12 +71,12 @@
     
     .container--1--c-ii {
         display: inline-block;
-        margin-left: 160px;
+        margin-left: 120px;
     }
     
     .container--1--c-iii {
         display: inline-block;
-        margin-left: 160px;
+        margin-left: 120px;
     }
     
     .container--1--c p {
@@ -93,7 +94,7 @@
     }
     
     .container--2 h5 {
-        padding-top: 130px;
+        padding-top: 75px;
         color: #999999;
         font-style: normal;
         font-size: 18px;
@@ -123,7 +124,7 @@
         line-height: 32px;
         font-weight: 300;
         font-family: "Open Sans", Roboto, Arial, Helvetica, Verdana, sans-serif;
-        width: 780px;
+        width: 340px;
         margin: auto;
     }
     
@@ -150,7 +151,7 @@
     .container--3 {
         border: 1px solid royalblue;
         width: 90%;
-        height: 700px;
+        height: 925px;
         padding-top: 67px;
         padding-bottom: 33px;
         margin: auto;
@@ -161,16 +162,16 @@
     }
     
     .container--3--a {
-        display: inline-block;
+        /* display: inline-block; */
         /* overflow: auto; */
         word-wrap: break-word;
         /* word-break: break-all; */
         overflow: hidden;
-        margin-right: 5px;
+        margin: auto;
         margin-bottom: -15px;
         padding-right: 1%;
         padding-bottom: 33px;
-        width: 45%;
+        width: 100%;
         /* max-height: 100%; */
         /* border: 1px solid royalblue; */
     }
@@ -187,39 +188,41 @@
         line-height: 25px;
         font-weight: 300;
         font-family: "Open Sans", 'Roboto', Arial, Helvetica, Verdana, sans-serif;
-        width: 60%;
+        width: 90%;
         /* text-align: left; */
         text-align: justify;
-        margin: auto;
+        margin: -50px auto auto;
     }
     
     .container--3--b {
-        display: inline-block;
-        margin-left: 5px;
+        /* display: inline-block; */
+        margin: 0 auto;
         /* padding-top: 100px; */
-        width: 45%;
-        text-align: left;
+        width: 100%;
+        /* text-align: left; */
         /* max-height: 100%; */
         /* border: 1px solid royalblue; */
     }
     
     .container--3--b--text {
-        margin-bottom: 70px;
+        margin-left: 5%;
+        margin-bottom: 25px;
+        text-align: left;
     }
     
     .container--3--b--text h2 {
-        font-size: 36px;
+        font-size: 30px;
         /* letter-spacing: 1px; */
-        line-height: 40px;
+        line-height: 1.2;
         font-weight: 900;
         font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;    
     }
     
     .container--3--b--text b {
         color: rgb(231, 26, 34);
-        font-size: 30px;
+        font-size: 24px;
         /* letter-spacing: 1px; */
-        line-height: 36px;
+        line-height: 1.2;
         font-weight: 700;
         font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;  
     }
@@ -237,7 +240,7 @@
     
     .container--4 {
         width: 100%;
-        height: 600px;
+        height: 1000px;
         background-image: url("images/container-4-background.jpg");
         background-size: cover;
         background-position: 50% 0%;
@@ -254,35 +257,42 @@
     } */
     
     .container--4--image {
-        margin-right: 2%;
-        display: inline-block;
-        vertical-align: top;
+        margin: auto;
+        display: block;
+        /* vertical-align: top; */
         border: 1px solid royalblue;
         /* object-fit: cover; */
-        width: 40%;
+        width: 80%;
         /* height: 100%; */
+        overflow: hidden;
     }
+
+    /* .container--4 img {
+        width: 50%;
+        height: 100%;
+    } */
     
     .container--4--text {
-        display: inline-block;
+        display: block;
+        margin: auto;
         padding-top: 40px;
         border: 1px solid royalblue;
-        width: 52%;
+        width: 80%;
         text-align: left;
         /* padding-right: 75px; */
     }
     
     .container--4--text .p1 {
         color: rgb(16, 78, 146);
-        font-size: 72px;
-        line-height: 80px;
+        font-size: 50px;
+        line-height: 50px;
         font-weight: 700;
         font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
         width: 80%;
     }
     
     .container--4--dummy--form {
-        margin-top: -50px;
+        margin-top: -20px;
         padding-left: 0px;
         text-align: left;
     }
@@ -293,7 +303,7 @@
         background-color: rgb(231, 26, 34);
     
         height: 0px;
-        width: 85%;
+        width: 90%;
         /* width: 200px; */
     }
     
@@ -301,13 +311,13 @@
         /* margin-top: 30px; */
         /* color: #999999; */
         font-style: normal;
-        font-size: 20px;
+        font-size: 18px;
         /* letter-spacing: 2px; */
-        line-height: 32px;
+        line-height: 29px;
         font-weight: 300;
         font-family: "Open Sans", Roboto, Arial, Helvetica, Verdana, sans-serif;
         /* text-align: justify; */
-        width: 80%;
+        width: 90%;
         /* margin: auto; */
     }
     
@@ -333,8 +343,8 @@
     
     .container--5--flex {
         border: 1px solid royalblue;
-        height: 500px;
-        padding-top: 50px;
+        height: 1100px;
+        padding-top: 0px;
         margin: auto;
         text-align: left;
         width: 90%;
@@ -342,9 +352,9 @@
     
     .container--5--flex--a p {
         margin-bottom: 50px; 
-        font-size: 36px;
+        font-size: 50px;
         /* letter-spacing: 1px; */
-        line-height: 40px;
+        line-height: 50px;
         font-weight: 900;
         font-family: 'Roboto', Arial, Helvetica, Verdana, sans-serif;
         text-align: left;   
@@ -356,8 +366,9 @@
     }
     
     .container--5--b--flex > div {
-        flex: 1 1 calc(27% - 20px);
+        flex: 1 1 calc(50% - 20px);
         margin-right: 50px;
+        margin-bottom: 50px;
         /* min-width: 200px; */
         /* max-width: 30%; */
         /* min-width: 90%; */
@@ -383,14 +394,16 @@
         font-size: 18px;
         /* letter-spacing: 1px; */
         font-style: italic;
-        line-height: 20px;
+        line-height: 28px;
         font-weight: 300;
         font-family: 'Roboto', "Open Sans", sans-serif;
     }
     
     .container--6 {
         width: 100%;
-        height: 700px;
+        height: 1400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         padding-left: 5%;
         padding-right: 5%;
         color: red;
@@ -398,11 +411,11 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        /* justify-content: center; */
+        justify-content: center;
     }
     
     .container--6 > div {
-        flex: 45%;
+        flex: 100%;
         margin-right: 20px;
         border: 1px solid red;
         /* min-width: 200px; */
@@ -437,9 +450,9 @@
     }
     
     .container--6--images--column {
-        flex: 50%;
-        max-width: 50%;
-        padding: 0 10px;
+        flex: 100%;
+        max-width: 100%;
+        padding: 10px 10px;
     }
     
     .container--6--images--column img {
@@ -455,7 +468,7 @@
     
     .container--7 {
         width: 100%;
-        height: 700px;
+        height: 840px;
         padding: 100px 0;
         text-align: center;
         font-family: "Open Sans", sans-serif;
@@ -472,12 +485,12 @@
         line-height: 55px;
         font-weight: 700;
         font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
-        width: 700px;
+        width: 90%;
     }
     
     .container--7 p {
         margin: 30px auto 30px;
-        width: 700px;
+        width: 90%;
         /* color: #999999; */
         font-style: normal;
         font-size: 30px;
@@ -491,7 +504,7 @@
         text-align: center;
         margin-top: 60px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -533,7 +546,7 @@
     
     .container--8 p {
         margin: 49px auto;
-        width: 415px;
+        width: 90%;
         font-style: normal;
         font-size: 14px;
         /* letter-spacing: 2px; */
@@ -575,7 +588,7 @@
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
 
     * {
         box-sizing: border-box;
