@@ -1435,7 +1435,7 @@
         margin-right: 2%;
         display: inline-block;
         vertical-align: top;
-        border: 1px solid royalblue;
+        /* border: 1px solid royalblue; */
         /* object-fit: cover; */
         width: 40%;
         /* height: 100%; */
